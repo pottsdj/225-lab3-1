@@ -7,7 +7,7 @@ pipeline {
         DOCKER_IMAGE = 'cithit/pottsdj'                                                 // <------change this
         IMAGE_TAG = "build-${BUILD_NUMBER}"
         GITHUB_URL = 'https://github.com/pottsdj/225-lab3-1.git'                   // <------change this
-        KUBECONFIG = credentials('pottsdj')                                             // <------change this
+        KUBECONFIG = credentials('pottsdj-225')                                             // <------change this
     }
 
     stages {
